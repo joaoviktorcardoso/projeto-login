@@ -1,8 +1,9 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 768px) and (max-width: 992px) { 
+@media screen and (min-width: 768px) and (max-width: 992px) {  /*TABLET CONFIG */
     section#login {
     width: 80vw;
+    height: 360px;
 
 }   
 
@@ -25,7 +26,7 @@
     }
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 992px) { /* CONFIG DESKTOP */
     section#login {
         width: 950px;
          
@@ -52,6 +53,7 @@
     }
 
     div#formulario > p {
-        font-size: 1.3em;
+        font-size: 1em;
+        margin: 20px 0px;
     }
 }
